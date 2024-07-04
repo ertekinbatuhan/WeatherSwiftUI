@@ -135,7 +135,7 @@ struct SearchBar: View {
                 onSearchTapped()
             }) {
                 Image(systemName: "magnifyingglass")
-                    .foregroundColor(.gray)
+                    .foregroundColor(.white)
                     .imageScale(.large)
             }
             .padding(.trailing)
